@@ -12,11 +12,16 @@
     .mobile-only input {
         width: 18rem !important;
     }
+    .mobile-only #dialog header {
+        font-size: 1.1rem !important;
+        padding: 0.3rem !important;
+    }
     .mobile-only #dialog header h2 {
         font-size: 1.1rem !important;
     }
     .mobile-only #dialog p {
         font-size: 0.9rem !important;
+        padding: 0.5rem !important;
     }
 }
 
