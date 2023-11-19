@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="files/icone-escribo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+
+    <title>Somatório</title>
+</head>
+
+<body>
+    <div class="content mobile-only">
+        <img src="files/numeros-inteiros-positivos.png" alt="Numeros Inteiros Positivos">
+        <h1>Soma de múltiplos de 3 ou 5</h1>
+        <input type="number" id="numero" placeholder="Insira um número inteiro positivo." oninput="limitarInput(this)">
+        <button class="button-calcular" onclick="calcular()">Calcular</button>
+        <p id="resultado"> </p>
+        <a class="mostrar-dialog" href="#dialog" onclick="mostrarDialog()" style="display: none;">Ver números
+            somados</a>
+        <dialog id="dialog">
+            <header>
+                <h2>Números somados</h2>
+                <button id="dialog-close-button">X</button>
+            </header>
+            <p>Os números somados são: </p>
+        </dialog>
+        <script src="index.js"></script>
+    </div>
+
+</body>
+
+</html>
