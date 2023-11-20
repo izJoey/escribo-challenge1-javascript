@@ -3,7 +3,7 @@
 
 **Descrição:**
 ====
-Este é um projeto simples que calcula a soma de todos os números inteiros positivos menores que um número específico e que são múltiplos de 3 ou 5.
+Este é um projeto simples que calcula a soma de todos os números inteiros positivos menores que um número específico e que são múltiplos de 3 ou 5. O projeto foi desenvolvido usando JavaScript/HTML/CSS.
 
 **Instruções de execução:**
 ====
