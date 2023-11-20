@@ -23,30 +23,15 @@ function calcular() {
         return;
     }
 
-    // Verifica se o número é menor que 1
-    if (numero <= 1) {
-        document.getElementById('resultado').innerHTML =
-            'O resultado é 0, porque não há números menores que 1 que sejam múltiplos de 3 ou 5.';
+    // Verifica se o número é positivo e menor que 4
+    if (numero <= 0 || numero <= 3) {
+        var message = 'O número deve ser positivo.';
+        if (numero > 0) {
+            message =
+                'O resultado é 0, porque não há números menores que ' + numero + ' que sejam múltiplos de 3 ou 5.';
+        }
 
-        // Esconde o link "Ver Números Somados"
-        document.querySelector('a[href="#dialog"]').style.display = 'none';
-        return;
-    }
-
-    // Verifica se o número é menor que 2
-    if (numero <= 2) {
-        document.getElementById('resultado').innerHTML =
-            'O resultado é 0, porque não há números menores que 2 que sejam múltiplos de 3 ou 5.';
-
-        // Esconde o link "Ver Números Somados"
-        document.querySelector('a[href="#dialog"]').style.display = 'none';
-        return;
-    }
-
-    // Verifica se o número é menor que 3
-    if (numero <= 3) {
-        document.getElementById('resultado').innerHTML =
-            'O resultado é 0, porque não há números menores que 3 que sejam múltiplos de 3 ou 5.';
+        document.getElementById('resultado').innerHTML = message;
 
         // Esconde o link "Ver Números Somados"
         document.querySelector('a[href="#dialog"]').style.display = 'none';
