@@ -41,7 +41,7 @@ Para testar o projeto, siga estas etapas:
 1. Abra o site no GitHub Pages ou index.html no navegador da sua preferência.
 2. Insira um número inteiro positivo no campo de texto "Insira um número inteiro positivo".
 3. Clique no botão "Calcular".
-4. O resultado da soma será exibido no campo de texto "Resultado".
+4. O resultado da soma será exibido abaixo.
 5. Para ver os números somados, clique no link "Ver Números Somados".
 
 **Exemplo de execução:**
